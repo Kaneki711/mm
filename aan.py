@@ -10,27 +10,27 @@ from gtts import gTTS
 
 #tinkerbell
 cl = LINETCR.LINE()
-cl.login(token="EnhmT4yIsutkurro1SGa.4hEmxgX9P6cqQaMJQ30VsG.j0NNDsADmDLjCuuA7FkPgfoLKKkkCD0AhjLQPUnmA3E=")
+cl.login(qr=True)
 cl.loginResult()
 #vidia
 kt = LINETCR.LINE()
-kt.login(token="En4QkYZUDx25ty9u9N23.0CBpnV6ksL9CcKYqcQ+pOW.KtiIZayR0ZvKP7Rim01+HUefpiqSasP8VULK/eTZdZ0=")
+kt.login(qr=True)
 kt.loginResult()
 #rosetta
 ks = LINETCR.LINE()
-ks.login(token="EnsbixTzCoeH9RfLCfk6.vsM6waj4D66/pVIMntl0rG.vk/3RLAwNeQ8QGb9W3M31343b1dWp8Co/lUlhS6gY3o=")
+ks.login(qr=True)
 ks.loginResult()
 #sirvelmist
 ki = LINETCR.LINE()
-ki.login(token="EnGg1TH1kPIaoSfqQpOc.gcHfx+ueCoqb5EU89K/pta.qGtwwOt+FQHxTeMB0UctJyiRHQEsQiK902gfI1unaXY=")
+ki.login(qr=True)
 ki.loginResult()
 #fawn
 kk = LINETCR.LINE()
-kk.login(token="EnmUU2H2NlkDaXPNk5Sb.oDn8mJHGXn8poKtcimrw2W.t7y2EZY5mf/oy2TqnEIXdh1Qzb0VxJCGCSNFuS7wWk8=")
+kk.login(qr=True)
 kk.loginResult()
 #iridessa
 kc = LINETCR.LINE()
-kc.login(token="EnlJaxEA8GubMFbZq8q7.mpcjkaMnV7BBNyvuztkprW.7Fi4ih954zGBcZKgm2pXGMpArNDVYyP77jNlDu1Pl/g=")
+kc.login(qr=True)
 kc.loginResult()
 
 #kicker ghost
@@ -38,216 +38,173 @@ kc.loginResult()
 #kl.login(token="")
 #kl.loginResult()
 
-print "T̐̄̈́̀̏͏̷̡̡͞e̱͍͍̟̯̞͙̙͍̜̯̅̈̍ͧͨ̽ͬ̾͏̶̶̵͡͝à̸̛̛͉̗̦͈͇̩̿̑ͯ̀̋͌̎̐ͯ̏ͤ͢͠m̨̦͔̠͈̜̫̖̘̗̠̽ͤͬͮͩ̋̑̽͛̌̉̿́̕ ͈҉̵̶̧̛̛͠͝҉̀͢͏̀͞ ̶̨̧̛̰̞͍͖͓͂̈́̄̃̇̐̐́̕̕͢͝ ̸̸̶̴̵̶̛̛̝͓̹̩̠̯̠̦̈̋̂̀̚͘͢͠͝͠J̶̛̲͇̤͔̝͕͍̮̳͎ͥ̾̐̆ͥ̑ͦ̓̓ͩ̎́ͅ͏̡̧̢̛̕̕͡͞u̵̵̲̽͑̆͌ͭ҉̵̧̧͘͝҉ţ̸̴̨̳͓͇͈̝̣̄͑̏̋̆̀̕͡͞ḁ̧̧̧̛̘͕͍̣̣͖̝ͤ̇͊̽̃͒̚̕͢͟ͅw̴̴̬̠̞͍̫̩̗ͫ̎ͩ͌̐͗ͮ̾̓̾͂͟͢aͪͫ̆ͬ̎̽ͧ̽̀ͬ͛ͬ̅̚͏̡͢͡҉n̤͈̒̂ͫ̽̈́ͭ҉͏̸̶̸́̕͡"
+print "===[SUKSES LOGIN]==="
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage= """\n
-=======================
-  ✩★BOT COMMANDS★✩
-=======================\n
-★ MODIFIER ★
-● Bot1 rename:[text]
-● Bot2 rename:[text]
-● Bot3 rename:[text]
-● Bot4 rename:[text]
-● Bot5 rename:[text]
-● Bot6 rename:[text]
-● All rename:[text]
-● Allbio:[text]
-● Bot1 clone @[name]
-● Bot2 clone @[name]
-● Bot3 clone @[name]
-● Bot4 clone @[name]
-● Bot5 clone @[name]
-● Bot6 clone @[name]
-● Comment:[text]
-● Message:[text]
-● Bot1-6 backup run
-● Bot1-6 backup
-● Group name:[text]
+helpMessage= """
 
-★ PROMOTE/DEMOTE ★
-● Admin on @[name]
-● Expel on @[name]
-● Expelall
-● Set member:
+====================
+COMMAND SELFBOT
+====================
 
-★ STEALING ★
-● Steal name    @[name]
-● Steal Bio     @[name]
-● Steal status  @[name]
-● Steal mid     @[name]
-● Steal contact @[name]
-● Steal cover   @[name]
-● Steal pict    @[name]
-● Steal group pict
-● Midpict:[mid]
-● Copy @[name]
-● Kembali ke asli
-
-★ GUARD MODE ★
-● Protect:low
-● Protect:hight
-
-★ MARK TO LIST ★
-● Ban    @[name]
-● Unban  @[name]
-● Ban group:
-● Del ban:
-● List ban group
-● Banned[send contact]
-● Unbanned[send contact]
-● Ban repeat @[name]
-● Blacklist all
-● Ban cek
-● Clear banlist
-● Mimic target @[name]
-● Mimic untarget @[name]
-● Add friend @[name]
-● Target @[name]
-● Del target @[name]
-● Target list
-
-★ INVITATION ★
-● Invite:[mid]
-● Invite user[contact]
-● Invite me
-● Team @join
-● Join group
-
-★ LEAVE GROUP ★
-● Bot2   @bye
-● Bot3   @bye
-● Bot4   @bye
-● Bot5   @bye
-● Bot6   @bye
-● Team   @bye
-● Center @bye
-● Bye allgroups[own]
-● Leave group:
-
-★ BOT AUTO SETTINGS ★
-● Auto join:on/off
-● Auto leave:on/off
-● Auto like:on/off
-● Welcome message:on/off
-● Auto notice:on/off
-● Blockinvite:on/off
-● Auto blockqr:on/off
-● Namelock:on/off
-● Mimic:on/off
-● Auto add:on/off
-● Check message
-● Add message:[text]
-● Comment:on/off
-● Add comment:[text]
-● Check comment
-● Backup:on/off
-● Gcancel:[number]
-● Update welcome:[text]
-● Check welcome message
-
-★ CANCEL MODE ★
-● Rejectall
-● Clean invites
-● Clear invites
-
-★ SUPRISE GIFT ★
-● gift1-15
-● Spam gift
-
-★ NOTIFICATION LIST ★
-● Group list
-● Banlist
-● Admin list
-● Settings
-● Ginfo
-● TL:[text]
-● Mimic list
-● Details grup:
-● Crash
-● Add all
-
-★ KICKER MODE ★
-● Cleanse
-● Vkick @
-● Nk [name]
-● Kick:[mid]
-● Purge
-● Ulti
-● Recover
-
-★ CHAT RELATED ★
-● Spamg[on/off][no][txt]
-● Spam add:[text]
-● Spam change:[text]
-● Spam start:[number]
-● Say [text]
-● Me
-● Speed
-● Debug speed
-● My mid
-● Gcreator
-● Halo
-● Bot contact
-● Bot mid
-● Creator
-● System
-● Iconfig
-● Kernel
-● Cpu
-● Responsename
-● Help
-● Mc:[mid]
-
-★ UTILITY ★
-● Lurking
-● Lurking result
-● Setlastpoint
-● Viewlastseen
-● Link open
-● Link close
-● Gurl
-● Remove chat
-● Bot restart
-
-★ CHAT RELATED ★
-● Lyric [][]
-● Music [][]
-● Wiki [text]
-● Vidio [text]
-● Youtube [text]
-● Instagram [text]
-● Translate-idn [text]
-● Translate-eng [text]
-● Translate-thai [text]
-● Translate-japan [text]
-● Emoji [expression]
-● Info @[name]
-● Ping
-● Time
-● apakah
+[■] Purge
+[■] Ulti
+[■] Recover
+[■] Spamg[on/off][no][txt]
+[■] Spam add:[text]
+[■] Spam change:[text]
+[■] Spam start:[number]
+[■] Say [text]
+[■] Me
+[■] Speed
+[■] Debug speed
+[■] My mid
+[■] Gcreator
+[■] Halo
+[■] Bot contact
+[■] Bot mid
+[■] Creator
+[■] System
+[■] Iconfig
+[■] Kernel
+[■] Cpu
+[■] Responsename
+[■] Help
+[■] Mc:[mid]
+[■] Lurking
+[■] Lurking result
+[■] Setlastpoint
+[■] Viewlastseen
+[■] Link open
+[■] Link close
+[■] Gurl
+[■] Remove chat
+[■] Bot restart
+[■] Bot1-6 rename:[text]
+[■] All rename:[text]
+[■] Allbio:[text]
+[■] Bot1-6 clone @[name]
+[■] Comment:[text]
+[■] Message:[text]
+[■] Bot1-6 backup run
+[■] Bot1-6 backup
+[■] Group name:[text]
+[■] Admin on @[name]
+[■] Expel on @[name]
+[■] Expelall
+[■] Set member:
+[■] Steal name    @[name]
+[■] Steal Bio     @[name]
+[■] Steal status  @[name]
+[■] Steal mid     @[name]
+[■] Steal contact @[name]
+[■] Steal cover   @[name]
+[■] Steal pict    @[name]
+[■] Steal group pict
+[■] Midpict:[mid]
+[■] Copy @[name]
+[■] Kembali ke asli
+[■] Protect:low
+[■] Protect:hight
+[■] Ban    @[name]
+[■] Unban  @[name]
+[■] Ban group:
+[■] Del ban:
+[■] List ban group
+[■] Banned[send contact]
+[■] Unbanned[send contact]
+[■] Ban repeat @[name]
+[■] Blacklist all
+[■] Ban cek
+[■] Clear banlist
+[■] Mimic target @[name]
+[■] Mimic untarget @[name]
+[■] Add friend @[name]
+[■] Target @[name]
+[■] Del target @[name]
+[■] Target list
+[■] Invite:[mid]
+[■] Invite user[contact]
+[■] Invite me
+[■] Team @join
+[■] Join group
+[■] Bot1-6   @bye
+[■] Team   @bye
+[■] Center @bye
+[■] Bye allgroups[own]
+[■] Leave group:
+[■] Auto join:on/off
+[■] Auto leave:on/off
+[■] Auto like:on/off
+[■] Welcome message:on/off
+[■] Auto notice:on/off
+[■] Blockinvite:on/off
+[■] Auto blockqr:on/off
+[■] Namelock:on/off
+[■] Mimic:on/off
+[■] Auto add:on/off
+[■] Check message
+[■] Add message:[text]
+[■] Comment:on/off
+[■] Add comment:[text]
+[■] Check comment
+[■] Backup:on/off
+[■] Gcancel:[number]
+[■] Update welcome:[text]
+[■] Check welcome message
+[■] Rejectall
+[■] Clean invites
+[■] Clear invites
+[■] gift1-15
+[■] Spam gift
+[■] Group list
+[■] Banlist
+[■] Admin list
+[■] Settings
+[■] Ginfo
+[■] TL:[text]
+[■] Mimic list
+[■] Details grup:
+[■] Crash
+[■] Add all
+[■] Cleanse
+[■] Vkick @
+[■] Nk [name]
+[■] Kick:[mid]
+[■] Lyric [][]
+[■] Music [][]
+[■] Wiki [text]
+[■] Vidio [text]
+[■] Youtube [text]
+[■] Instagram [text]
+[■] Translate-idn [text]
+[■] Translate-eng [text]
+[■] Translate-thai [text]
+[■] Translate-japan [text]
+[■] Emoji [expression]
+[■] Info @[name]
+[■] Ping
+[■] Time
+[■] apakah
   [kerang ajaib]
-● Sticker [expression]
-● Mention all
-● /say
-● /say-en
-● /say-jp
-● Dosa @
-● /
-● Siapa
+[■] Sticker [expression]
+[■] Mention all
+[■] /say
+[■] /say-en
+[■] /say-jp
+[■] Dosa @
+[■] /
+[■] Siapa
+[■] Pm cast   [text]
+[■] Broadcast [text]
+[■] Spam @[name]
+[■] Turn off bots
 
-★ BROADCASTING ★
-● Pm cast   [text]
-● Broadcast [text]
-● Spam @[name]
-
-★ special command ★
-● Turn off bots
-=======================
-SPECIAL THANKS TO:
-Ą̷̪͕̪̹̼̻̻͉̜̘̪̖̻ͨͧͨ́̓͂́ͩ̇̔ͥ̆́ͥ͡ȁ̼͖̤̹͍̞̥̪̘͓̙͔̯̟̯ͨ̂̆̈̓͏̴̷̨̧̢̨́́͢n̴̨̨̛̙̦̮͇̞͍͕̾͐͑ͧͨ̀͛̈̿͛̒͘̕͟͝͠͞ ͈̯̥͎̼̜̟̪̘̙̅ͮͥͥͮ͛̅̄̅̎͆͆̀͏̸̡̛́͜͢͞Ţ̸̷͚̟̭͓̣͉͔̖̎̍̊̉̋́̀͘͟͢͢͟͞͠͠e̴̴̛̟̙̠̫͖̻͚̱͔̲̜͙͙͖̞̩̣̽̊̉̐̀̏̽̅ͤͤͦ̚͢a̜̰͇̼͑̿̾̎ͥ̍͑ͭͭ̅ͪͭͥ̌͘͡͏͡m̴̢̙͚͗̈́̆͂ͤ͂̓ͫ̒͛͐ͬ̍͛̉̀̀̕͜͢͝͝͡ ̶̴̡̛̹̣̥̳̰̫͚̩̯̞̠͕͙͈̝͖ͩ̑ͧ̀̀̀͟͜͝҉̧Ḇ̸̶̧̗͎͉̦̫̮̜̜͖͚͓̟̖̱̅ͭ̆̿͑̾ͭ̑̅̌̚̕͜͜͢͟͠͝͠o̜̮͍̟̭͈̳̩̩̩̳̣͕̬ͬ͒ͣ̒̌͆̕ͅ҉͏̷̶̴̨̢̕͟͞͝͠t̶̶̷̡̨͕̫̎ͫ̒͐͝͡͠҉҉͏҉
-=======================
+====================
+SUPPORT [D.A.D] TEAM
+====================
+SUPPORT KANEKI TEAM
+====================
 """
 KAC=[cl,ki,kk,kc,ks,kt]
 mid = cl.getProfile().mid
@@ -266,8 +223,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["ue0778c5c6c7da7a090a809a3ab7d2f4a"]
-owner = ["ue0778c5c6c7da7a090a809a3ab7d2f4a"]
+admin = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+owner = ["uc77fd25b59f6e563d84f1334f3fed10b"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -277,8 +234,8 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by ayana",
-    "welmsg":"welcome to group",
+    "comment":"Auto Like By BII line.me/ti/p/~@enr7503k",
+    "welmsg":"WELCOME TO GROUPS ONI-CHAN",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -2076,7 +2033,7 @@ def bot(op):
             elif msg.text in ["Creator"]:
               if msg.from_ in admin:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ub76a0153a283da9a1443dfb043181335'}
+                msg.contentMetadata = {'mid': 'uc77fd25b59f6e563d84f1334f3fed10b'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"Itu Creator Saya ")
             elif "Admin on @" in msg.text:
@@ -3061,7 +3018,7 @@ def bot(op):
                             cl.sendText(msg.to,(error))#-------------------------------------------------------
             elif 'Crash' in msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub76a0153a283da9a1443dfb043181335"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
                 cl.sendMessage(msg)
             #--------------------------------------------------------
 	    elif "Ban group: " in msg.text:
@@ -3860,7 +3817,7 @@ def bot(op):
 						cl.sendText(manusia,(bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
 										 
 #========================================
-            elif msg.text in ["Team @join"]:
+            elif msg.text in ["Gabung"]:
               if msg.from_ in admin:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
@@ -3900,7 +3857,7 @@ def bot(op):
 					ki.sendText(msg.to,"bye-bye")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Team @bye"]:
+            elif msg.text in ["Pulang"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
@@ -4203,7 +4160,7 @@ def bot(op):
                     #for _mid in gMembMids:
                         #random.choice(KAC).cancelGroupInvitation(msg.to,[_mid])
                     #cl.sendText(msg.to,"Clear boss!!!")
-            elif msg.text.lower() in ["mention all"]:
+            elif msg.text.lower() in ["Dor"]:
               if msg.from_ in admin:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
